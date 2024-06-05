@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 10px 0;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        h1 {
+            margin: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        ul {
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! My name is John Doe. I am a web developer with a passion for creating beautiful and functional websites. I enjoy learning new technologies and improving my skills.</p>
+    </section>
+    <section>
+        <h2>My Favorite Places</h2>
+        <img src="https://via.placeholder.com/600x400" alt="A beautiful landscape">
+        <p>Here are a few of my favorite places to visit:</p>
+        <ul>
+            <li>Mountains</li>
+            <li>Beaches</li>
+            <li>Forests</li>
+            <li>Deserts</li>
+        </ul>
+    </section>
+    <footer>
+        <p>Contact me at <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
+    </footer>
+</body>
+</html>
